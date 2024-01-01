@@ -1,1 +1,1 @@
-HTMLAllCollection
+console.log("hello")
