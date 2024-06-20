@@ -4,7 +4,7 @@
 //boolean = true/false
 //null => standalone value  typeof="object"
 //undefined
-//symbol => unique used in react
+//symbol => (unique used) in react
 //object
 let name="roshi"
  let age=20
