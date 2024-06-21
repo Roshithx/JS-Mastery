@@ -1,12 +1,21 @@
 const name="Roshi"
 const repocount=10
 console.log(name+repocount+"Value");  //outdated syntax
+ 
+console.log(`Hello my name is ${name} and my repo count is ${repocount}`); //template literals
 
-console.log(`Hello my name is ${name} and my repo count is ${repocount}`);
+let num1=10
+let num2=5
+let num3=num1%num2;
+console.log(num3);
+console.log(`Answer=${num3}`);   //Backtick converts all datatypes into strings.
 
 const gamename=new String("Pubg-Mobile-PC")
 //length => inorder to calculate the total length of the string.
 console.log(gamename.length);
+
+let name1=new String("Ajmal")
+console.log(name1); 
 
 
 //sub => used to split word from beggining to make it a new string

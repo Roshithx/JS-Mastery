@@ -10,4 +10,11 @@ let name="roshi"
  let age=20
  let isLoggedin=false 
  let gear=null
- console.log(typeof null)
+ //console.log(typeof null)
+
+ console.log(`"Type of the given attribute is"`);
+ console.log("Type:",typeof(name));
+ console.log(1000,":",typeof(1000))
+ console.log(1000 + ":" + typeof(1000));  // Convert number to string by using + operator
+
+ console.log(`My name is: ${name} and my type of data is:`)

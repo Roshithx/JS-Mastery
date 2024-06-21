@@ -1,0 +1,32 @@
+JavaScript : A dynamic Programming language:(JavaScript is a dynamically typed language, which means that the type of a variable is not declared when the variable is created. Instead, the type of a variable is determined by the value that is assigned to the variable.)
+NODE JS : Runtime Envioronment for js (not a language).
+
+                                                    /*******VARIABLES*********/
+
+Hoisting: Hoisting is JavaScript's default behavior of moving declarations to the top.
+
+Var keyword Problem: will allow variables to assign and override multiple values to a same varriable which may lead to huge errors in big projects.
+
+
+
+
+                                                    /*********OPERATORS*********/
+  Operators in JavaScript
+
+1.ARITHMETIC OPERATORS : + - / * % **   returns number itself
+2.ASSIGNMENT OPERATORS : =
+3.RELATIONAL OPERATORS : < <= > >= == != === retturns boolean value
+4.LOGICAL OPERATORS:  &&  ||  !
+
+   &&               ||
+ 
+ T && T = T     T || T = T
+ T && F = T     
+ F && F = F
+ F && T = F
+
+5. SHORT HAND OPERATORS : += 
+
+
+
+
