@@ -1,31 +1,65 @@
-JavaScript : A dynamic Programming language:(JavaScript is a dynamically typed language, which means that the type of a variable is not declared when the variable is created. Instead, the type of a variable is determined by the value that is assigned to the variable.)
-NODE JS : Runtime Envioronment for js (not a language).
+--------- JavaScript - Dynamically Programming Language ------------
 
-                                                    /*******VARIABLES*********/
+    1. NODE JS : It Provides runtime environment for JS
+    2. There is no user input predefined methods.so we need to import a library in js prompt-sync from npm.
+        and import this library to our code using this command:
 
-Hoisting: Hoisting is JavaScript's default behavior of moving declarations to the top.
+        if we enter a value through prompt-sync the value is converted into a string.
 
-Var keyword Problem: will allow variables to assign and override multiple values to a same varriable which may lead to huge errors in big projects.
+              **************            const prompt=require('prompt-sync')({sigint:true})    *****************
+    
+    3. Basic Concepts in JS
+        - Display content : console.log(content)
+        - Data types in JS : use typeof
+            - string
+            - number 
+            - boolean
+        - Identifiers : set of rules for setting Variable name
+        - Variables : used to store values
+            - var keyword
+            - const keyword
+            - let keyword
+        - Hoisting : moving declarations to the top.
+        - Difference between var , const and let keywords
+        ----------var--------  -----------const-------------  ----------let----------------
+        1. use var keyword          use const keyword           use let keyword
+        2. can reassign value       cannot reassign value       can reassign value
+        3. Global scope             Block scope                 Block scope
+        4. Hoisted with undefined   Hoisted without value       Hoisted without value
+        - Combinig diffrenet types of data in JS
+            - using commas
+            - using + (concantenation) : it convert the content into string
+            - using `(back tick - template literals) 
+        - Operators in JS
+            - Assignment Operators : =
+            - Arithmetic Operators : + - * / % ** return a number
+            - Relational Operators : > >= < <= == != === it returns boolean 
+            - Logical Operators : && || ! 
+                        &&              ||              !
+                    T && T = T      T || T = T         !T = F
+                    T && F = F      T || F = T         !F = T
+                    F && T = F      F || T = T
+                    F && F = F      F || F = F 
+            - Increment/Decremnt Operators : ++ / -- 
+            - ShortHand Operators : += -= *= 
 
-
-
-
-                                                    /*********OPERATORS*********/
-  Operators in JavaScript
-
-1.ARITHMETIC OPERATORS : + - / * % **   returns number itself
-2.ASSIGNMENT OPERATORS : =
-3.RELATIONAL OPERATORS : < <= > >= == != === retturns boolean value
-4.LOGICAL OPERATORS:  &&  ||  !
-
-   &&               ||
- 
- T && T = T     T || T = T
- T && F = T     
- F && F = F
- F && T = F
-
-5. SHORT HAND OPERATORS : += 
+           Descision Making Statements/Conditional
+             - if Statements
+                 - syntax: if(condition)
+                           {
+                              Statements executed when it become true
+                           }
+              
+             - if-else Statements
+                 - Syntax:  if(condition)
+                            {
+                              Statements executed when it become true
+                            } 
+                            else
+                            {
+                              Statements executed when it become false
+                            }          
+                
 
 
 
