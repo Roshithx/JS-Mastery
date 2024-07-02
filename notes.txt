@@ -42,6 +42,8 @@
                     F && F = F      F || F = F 
             - Increment/Decremnt Operators : ++ / -- 
             - ShortHand Operators : += -= *= 
+            - Ternary Operators : condition? Statements executed when it become true:Statements executed when it become false
+            - Truthy Operators : condition &&  Statements executed when it become true
 
            Descision Making Statements/Conditional
              - if Statements
