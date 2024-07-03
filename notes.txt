@@ -60,7 +60,24 @@
                             else
                             {
                               Statements executed when it become false
-                            }          
+                            }
+            - else if ladder : Multiple condition are checking
+            -switch : switch(condition)
+            {
+                case ans1: step,break;
+            }
+
+            -Looping Statements: used to execute same task in multiple times.
+            while Loop
+               - syntax: 1: Initialise a Variable
+                         2: while(condition using the same variable) 
+                            {
+                                loop body execute when condition is true
+                             
+                         3: Change variable that used in the while condition 
+                            }
+             -for loop
+        
                 
 
 
