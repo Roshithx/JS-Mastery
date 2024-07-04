@@ -77,8 +77,35 @@
                          3: Change variable that used in the while condition 
                             }
              -for loop
+                 -syntax: 
+
+            
+        -Functions: use to perform a specific task: (Hoisting Available)
+            -Parts:
+                    1-Fuction Definition : 
+                              Syntax: function function-name(parameter1,parameter2...parameter3)
+                                        {
+                                            Task defining.
+                                        }
+                    2-Function Call :
+                              Syntax: function-name(arg1,arg2...arg3)
+                              Return Statements return value to the function call if it is not given it will return no value to function call and it will be undefined.
         
-                
+          Type of Functions:
+
+             - Arrow function: alternative for func Definition (cannot do Hoisting) because here occuring variable Hoisting
+               syntax: let func-name = (parameter1,parameter2..)=>{func-body}
+
+               We dont need to  use return keyword in arrow func of a single statetment and also dont need to put {}
+
+             -Predefined function  :
+
+             - Callback Functions : A function defenition inside another function call 
+                   - function-name(function name({}))
+                   eg: setTimeout()
+                       - Anonymous function : nameless function are self executing Fuction.
+                     
+                                                 
 
 
 
