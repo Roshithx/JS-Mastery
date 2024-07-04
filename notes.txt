@@ -1,5 +1,5 @@
---------- JavaScript - Dynamically Programming Language ------------
-
+--------- JavaScript - Dynamically Programming Language ES6+ ------------
+    
     1. NODE JS : It Provides runtime environment for JS
     2. There is no user input predefined methods.so we need to import a library in js prompt-sync from npm.
         and import this library to our code using this command:
@@ -80,6 +80,9 @@
                  -syntax: 
 
             
+            *********************************FUNCTIONS*************************************************
+
+            
         -Functions: use to perform a specific task: (Hoisting Available)
             -Parts:
                     1-Fuction Definition : 
@@ -104,6 +107,18 @@
                    - function-name(function name({}))
                    eg: setTimeout()
                        - Anonymous function : nameless function are self executing Fuction.
+
+             -Recursive Function : Calling a function inside its own definition
+             -Nested Function : defining a function inside another function.
+                In a nested func, Closure property: It is a function having access to the parent scope from a child. whereas parent cant acess child.
+            
+              - Currying: used to transform the func of multiple arguments into several functions of single arguments
+
+
+         ***************************************************** ARRAY *****************************************************
+
+      Arrays: 
+
                      
                                                  
 
