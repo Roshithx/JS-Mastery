@@ -117,7 +117,16 @@
 
          ***************************************************** ARRAY *****************************************************
 
-      Arrays: 
+      Arrays: Arrays is a datatype which can store multipe values.
+        
+        - Array methods
+           -Insert an item:
+                    array.push()=> insert elemnt as last elemnt in array
+                    array.unshift()=> insert elemnt in the beggining of the array.
+
+           -Delete an item:
+                    array.pop()=> delete elemnt as last elemnt in array
+                    array.shift()=> delete elemnt in the beggining of the array.
 
                      
                                                  

@@ -10,12 +10,9 @@ num = Number(input)
 output = ""
 
 while(num>0){
-    let lastDigit= num % 10
-    output += lastDigit
-    num = Math.floor(num/10)
+    let lastDigit= num % 10  //3
+    output += lastDigit      //'3'
+    num = Math.floor(num/10) //12
 }
 console.log(`Input = ${input}`)
 console.log(`Output = ${output}`)
-
-//w.a.p to chrck a number is pallindrome or not
-console.log(input==output?"PALLINDROME": "NOT A PALLINDROME");

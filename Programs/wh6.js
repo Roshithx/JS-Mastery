@@ -5,7 +5,7 @@ num = Number(input)
 result = 1
 
 while(num>0){
-    result *= num
+    result =result*num
     num--
 }
 console.log(`Factorial of ${input} is ${result}`)

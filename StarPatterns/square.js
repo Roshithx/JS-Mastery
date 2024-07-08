@@ -3,15 +3,20 @@
 // * * * *
 // * * * *
 // * * * *
-let concat=""
-for(i=1;i<=4;i++)
-    {
-       for(j=1;j<=4;j++)
-        {
-            concat+="* "
+function printHollowSquare(size) {
+    for (let i = 0; i < size; i++) {
+        let row = '';
+        for (let j = 0; j < size; j++) {
+            if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+                row += '*';
+            } else {
+                row += ' ';
+            }
         }
-        concat+="\n"
-     
+        console.log(row);
     }
-    console.log(concat);
+}
+
+// Example usage:
+printHollowSquare(5);
    

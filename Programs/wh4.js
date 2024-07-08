@@ -1,12 +1,10 @@
 //w.a.p to print sum of all numbers from 1 to 10
 
-
-
-i = 1
-sum = 0
-while(i<=10){
-    // console.log(i);
-    sum += i
+sum=0
+let i=1
+while(i<=10)
+{
+    sum+=i
     i++
 }
-console.log(`Sum = ${sum}`);
+console.log(sum);
