@@ -118,6 +118,7 @@
          ***************************************************** ARRAY *****************************************************
 
       Arrays: Arrays is a datatype which can store multipe values.
+      type:object
         
         - Array methods
            -Insert an item:
@@ -128,7 +129,19 @@
                     array.pop()=> delete elemnt as last elemnt in array
                     array.shift()=> delete elemnt in the beggining of the array.
 
-                     
+          -Sort an number array item:
+                   sort(comparefunc)=> sort a  array
+                   comparefunc=> ((a,b)=> a - b)
+                   array.sort((a,b)=>a - b)
+
+
+         - Print elements in array one by one without index:
+                for-of loop:
+
+                         for(let variable-name of array-name)
+                         {
+                            console.log(variable-name)
+                         }       
                                                  
 
 

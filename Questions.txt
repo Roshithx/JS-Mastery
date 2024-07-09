@@ -1,0 +1,37 @@
+Sure, here are some basic programming questions that involve conditional statements.
+
+1.Even or Odd: Write a program that takes an integer input and prints whether it is even or odd.
+
+2.Largest Number: Write a program that takes three numbers as input and prints the largest number.
+
+3.Grade Calculator: Write a program that takes a numerical grade input (0-100) and prints the corresponding letter grade based on the following criteria:
+
+90-100: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F
+
+4.Leap Year Checker: Write a program that takes a year as input and determines if it is a leap year. A leap year is either divisible by 400 or divisible by 4 but not by 100.
+
+5.Positive, Negative, or Zero: Write a program that takes an integer input and prints whether it is positive, negative, or zero.
+
+6.Triangle Type: Write a program that takes three angles as input and determines if a triangle with those angles is acute, obtuse, or right-angled.
+
+7.Number Range: Write a program that takes an integer input and prints whether the number falls within a specified range, such as between 1 and 100.
+
+8.Password Strength Checker: Write a program that takes a password as input and checks its strength based on the following criteria:
+
+Weak: Less than 6 characters
+Medium: 6 to 10 characters
+Strong: More than 10 characters
+
+9.Ticket Pricing: Write a program that takes a person's age as input and prints the ticket price based on the following criteria:
+
+Children (age < 12): $5
+Adults (age >= 12 && age < 65): $10
+Seniors (age >= 65): $7
+
+10.Quadratic Equation Solver: Write a program that takes coefficients of a quadratic equation (ax^2 + bx + c = 0) as input and prints the real solutions, if any.
+
+These questions cover a range of scenarios where conditional statements (if, else if, else) can be used to make decisions based on given conditions.
