@@ -136,12 +136,17 @@
 
 
          - Print elements in array one by one without index:
-                for-of loop:
+                -for-of loop:
 
                          for(let variable-name of array-name)
                          {
                             console.log(variable-name)
-                         }       
+                         }
+
+                -forEach(Callback function) it is a array method  : similar to for-of-loop  
+
+                -filter( Callback function) => replace simple if statetment in Arrays.
+                          => create and return a new array satisfing the condition   
                                                  
 
 
