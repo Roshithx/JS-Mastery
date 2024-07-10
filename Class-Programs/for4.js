@@ -12,7 +12,7 @@ isPrime = true
 for(i=2;i<=num/2;i++){
     if(num%i==0){
         // console.log("NOT A PRIME");
-        isPrime =  flase
+        isPrime =  false
         break
     }
     else{
