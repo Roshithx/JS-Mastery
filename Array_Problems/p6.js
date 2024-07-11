@@ -16,7 +16,7 @@ for(let emp of employee){
   console.log(emp[1]);
 }
 
-//Good way to use to avoid loops
+//Good way to use forEach to avoid loops
 employee.forEach((emp,index)=>{
   console.log(emp[1]);
 })
@@ -53,6 +53,7 @@ employee.sort((a,b)=>b[4]-a[4])
 // //7. Sort employee based on their experience in ascending order
 employee.sort((a,b)=>a[5]-b[5])
  console.log(employee);
+ 
 
 
 

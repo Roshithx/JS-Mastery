@@ -3,20 +3,18 @@
 // * * * *
 // * * * *
 // * * * *
-function printHollowSquare(size) {
-    for (let i = 0; i < size; i++) {
-        let row = '';
-        for (let j = 0; j < size; j++) {
-            if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
-                row += '*';
-            } else {
-                row += ' ';
-            }
-        }
-        console.log(row);
-    }
-}
 
-// Example usage:
-printHollowSquare(5);
+const star=()=>{
+let string=""
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=4;j++)
+        {
+           string+="*"
+        }
+         string+="\n"
+    }
+    return string
+}
+console.log(star());
    
