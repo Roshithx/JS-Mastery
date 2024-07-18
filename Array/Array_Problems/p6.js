@@ -10,6 +10,19 @@ employee = [
     [1007,'Shayan','developer','kochi',30000,3],
     [1008,'Nihaan','developer','TVM',25000,3]
 ]
+////display total salary of all employee :
+  total=exployee.map(emp=>emp[4]).reduce((num1,num2)=>num+num2)
+  console.log(total);
+//display employee with highest salary:
+ar=employee.reduce((sum,emp1)=>sum[4]>emp1[4]?sum:emp1)
+console.log(ar);
+
+//display employee with highest salary:
+console.log(employee.reduce((emp1,emp2)));
+
+
+
+
 //1. print all employee name
 
 for(let emp of employee){
@@ -43,7 +56,7 @@ console.log(dev);
 
 
 //5. print details of employee Laisha
-names=employee.filter((emp)=>emp[1]=='Laisha')
+names=employee.find((emp)=>emp[1]=='Laisha')
 console.log(names);
 
 // //6. Sort employee based on their salary in descending order

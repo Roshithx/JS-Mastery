@@ -10,11 +10,11 @@ num = parseInt(input)// converting the string to number
 i = 1
 str = "" //empty string for doing concatenation
 
-while(i<=num){//1<=5  2<=5
+while(i<=num){//1<=5 
     str += i  //str = ""+1=1 1+2=12
     i++//2
 }
 output = str*num
-console.log(`input: ${input}
+console.log(`input:${input}
 output: ${output}`);
 

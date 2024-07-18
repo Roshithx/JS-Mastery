@@ -143,10 +143,23 @@
                             console.log(variable-name)
                          }
 
-                -forEach(Callback function) it is a array method  : similar to for-of-loop  
+                -forEach(Callback function) it is a array method  : similar to for-of-loop  doesnot return occurs
 
                 -filter( Callback function) => replace simple if statetment in Arrays.
-                          => create and return a new array satisfing the condition   
+                          => create and return a new array satisfing the condition cant satisfy else statetments 
+
+                 -find( Callback function) => return single value of array instead of nested array
+                          => create and return a new array satisfing the condition cant satisfy else statetments 
+
+                -map(callback function) it is a array method: similar to forEach but will return occurs can satisfy if else
+
+                -reduce(callback func) : return a single value (sum/highest/lowest),after applying a reducer func to an existing array
+                 - to perfoem a
+
+                 
+
+
+                
                                                  
 
 
