@@ -10,6 +10,19 @@ employee = [
     [1007,'Shayan','developer','kochi',30000,3],
     [1008,'Nihaan','developer','TVM',25000,3]
 ]
+//emploee  total salary
+total=employee.map((n1)=>n1[4])
+console.log(total);
+high=total.reduce((num1,num2)=>num1+num2)
+console.log(high);
+
+//highest
+high=employee.reduce((n1,n2)=>n1[4]>n2[4]?n1:n2)
+console.log(high);
+
+//lowest
+low=employee.reduce((n1,n2)=>n1[4]<n2[4]?n1:n2)
+console.log(low);
 // 1. print all employee name
 
 // for(let item of employee){
