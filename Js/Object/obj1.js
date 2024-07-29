@@ -18,3 +18,6 @@ var car ={
 //add color as red,white,blue,ash,black
 car['color']=['red','white','blue','ash','black']
 console.log(car);
+
+
+

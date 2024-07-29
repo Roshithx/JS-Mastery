@@ -10,7 +10,9 @@ console.log(`Product Name:${product["pName"]}`);
 
 product["ExpiryDate"]="02-05-2020"
 Object.assign(product,{discount:"50%"})
+product["manager"]="Roshi"
 console.log(product);
+
 
 
 console.log(product.hasOwnProperty("price"));
