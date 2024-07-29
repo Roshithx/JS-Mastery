@@ -23,6 +23,8 @@ console.log(high);
 //lowest
 low=employee.reduce((n1,n2)=>n1[4]<n2[4]?n1:n2)
 console.log(low);
+lowes=employee.reduceRight((n1,n2)=>n1[4]<n2[4]?n1:n2)
+console.log(lowes);
 // 1. print all employee name
 
 // for(let item of employee){
@@ -53,6 +55,9 @@ console.log(`Total Employees:${employee.length} `);
 
 newDev=employee.filter((item)=>item[2]=='developer')
 console.log(newDev);
+
+//print developer employee Names.
+NewEmp=employee.filter((item)=>item[2]=='developer').forEach((n1)=>console.log(n1[1]))
 
 // 4. print employee whose salary > 30000
 

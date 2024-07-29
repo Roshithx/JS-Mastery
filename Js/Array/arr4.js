@@ -26,6 +26,9 @@ console.log(positiveCase);
 //5. is district with +ve cases > 15000
 posCase=covid_data.filter((n1)=>n1[2]>15000)
 console.log(posCase);
+
+Newa=covid_data.some((item)=>item[2]>15000)
+console.log(Newa);
 //6. sort data with 1st dose vaccine
 SortDose=covid_data.sort((a,b)=>(a[5]- b[5]))
 console.log(SortDose);
