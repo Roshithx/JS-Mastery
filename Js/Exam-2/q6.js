@@ -169,13 +169,27 @@ restuarants =[
 
 
   // a. Display all restaurants name
-  restaurants.forEach(restaurant => {
-    console.log(restaurant['name']);
-  });
+  // restuarants.forEach((item)=>console.log(item.name))
   
 //b. Display the operating hours of restaurant id:4
+//  res=restuarants.filter((item)=>item.id==4)
+// // console.log(res);
+// res.forEach((item)=>console.log(item.operating_hours)
+// )
+
+ 
+
 
 //c. Display the comments provided by customer Steph for restaurant Emily
+  res=restuarants.filter((item)=>item.name=='Emily'
+  )
+  // console.log(res);
+  newres=res.map((item)=>item.reviews).flat(Infinity).filter((n)=>n.name=='Steph')
+  
+  
+  console.log(newres);
+  
+  
 
 //d. Display all restaurants name whose cuisine_type is Asian
 

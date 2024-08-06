@@ -132,8 +132,8 @@
     2. developing webpage using figma file
 
     --------- JavaScript - Dynamically Programmed Language ------------
+    Why is it called dynamically programmed? because variables can hold values of different types during runtime.
 
-    1. NODE JS : It Provides runtime environment for JS
     2. Basic Concepts in JS
         - Display content : console.log(content)
         - Data types in JS : use typeof
@@ -146,7 +146,8 @@
             - var keyword
             - const keyword
             - let keyword
-        - Hoisting : moving declarations to the top.
+        - Hoisting : a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution
+
         - Difference between var , const and let keywords
         ----------var--------  -----------const-------------  ----------let----------------
         1. use var keyword          use const keyword           use let keyword
