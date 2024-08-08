@@ -29,7 +29,7 @@
          try{
 
            let response1=await fetch("https://restcountries.com/v3.1/all")
-        //    console.log(response1);
+        //    console.log(response1);s
           let response2= await response1.json()
         //   console.log(response2);
            const displayIndex=Math.floor(Math.random()*response2.length)
@@ -37,7 +37,7 @@
            console.log(displayData);
            
           result.innerHTML=`
-              <section class="border bg-light mt-5 rounded shadow " style="width: 600px; height: 500px;">
+              <section class="border bg-light mt-5 rounded shadow " style="width: 600px; height: 600px;">
             <div>
                 <h3 class="mt-4 mx-5">${displayData.name.common}</h3>
                 <img width="200px" class="mt-4 mx-5" src=${displayData.flags.png} alt="">
@@ -47,8 +47,10 @@
                 <a class="mt-4 mx-5" href="${displayData.maps.googleMaps}">Google Map</a>
                 <p class="mt-4 fw-bold  mx-5">Continent: <span class="text-success">${displayData.continents}</span> </p>
                 <p class="mt-4 fw-bold mx-5">Capital: <span class="text-success">${displayData.capital}</span> </p>
-                <p class="mt-4 fw-bold mx-5">Language: <span class="text-success">${displayData.languages}</span> </p>
+                <p class="mt-4 fw-bold mx-5">Language: <span class="text-success">${Object.values(displayData.languages)}</span> </p>
                 <p class="mt-4 fw-bold mx-5">Time Zone: <span class="text-success">${displayData.timezones}</span> </p>
+               <p class="mt-4 fw-bold mx-5">Currency:<span class="text-success">${displayData.currencies[Object.keys(displayData.currencies)].symbol},${displayData.currencies[Object.keys(displayData.currencies)].name}</span> </p>
+
             </div>
         </section>
           `
