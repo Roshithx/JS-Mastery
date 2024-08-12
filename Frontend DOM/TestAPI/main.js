@@ -1,4 +1,4 @@
-const apikey = '90ffadb010fb4a668e0917f4e525d682';
+
 const NewsBox = document.getElementById("result");
 const SearchData = document.getElementById("searchBox");
 const SearchBtn = document.getElementById("searchBtn");
